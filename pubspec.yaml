@@ -1,0 +1,26 @@
+name: game
+description: Um app de receitas com categorias de comida.
+version: 1.0.0
+author: Seu Nome <seuemail@exemplo.com>
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.3 # Dependência opcional para gerenciamento de estado
+  # Adicione outras dependências que achar necessário para o projeto
+
+flutter:
+  assets:
+    - assets/lombo_recheado.jpeg
+    - assets/lasanha_almoço.jpg
+    - assets/misto_quente.jpeg
+    - assets/pao_de_queijo_fit.jpg
+    - assets/cuzcuz_jantar.jpg
+    - assets/panqueca_jantar.webp
+    - assets/paodoce_lanche.webp
+    - assets/rosquinha_lanche.webp
+    - assets/Flutter.png
+    
